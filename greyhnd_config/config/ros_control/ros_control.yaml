@@ -1,0 +1,34 @@
+"":
+  joint_states_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 25
+
+  joint_group_position_controller:
+      type: effort_controllers/JointTrajectoryController
+      joints:
+          - Rev3
+          - Rev7
+          - Rev9
+          - Rev4
+          - Rev5
+          - Rev12
+          - Rev2
+          - Rev8
+          - Rev10
+          - Rev1
+          - Rev6
+          - Rev11
+
+      gains:
+        Rev3 : {p: 180, d: 0.9, i: 20}
+        Rev7 : {p: 180, d: 0.9, i: 20}
+        Rev9 : {p: 180, d: 0.9, i: 20}
+        Rev4 : {p: 180, d: 0.9, i: 20}
+        Rev5 : {p: 180, d: 0.9, i: 20}
+        Rev12 : {p: 180, d: 0.9, i: 20}
+        Rev2 : {p: 180, d: 0.9, i: 20}
+        Rev8 : {p: 180, d: 0.9, i: 20}
+        Rev10 : {p: 180, d: 0.9, i: 20}
+        Rev1 : {p: 180, d: 0.9, i: 20}
+        Rev6 : {p: 180, d: 0.9, i: 20}
+        Rev11 : {p: 180, d: 0.9, i: 20}

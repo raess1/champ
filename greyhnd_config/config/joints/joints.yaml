@@ -1,0 +1,23 @@
+left_front:
+  - Rev3
+  - Rev7
+  - Rev9
+  - Rev13
+
+right_front:
+  - Rev4
+  - Rev5
+  - Rev12
+  - Rev16
+
+left_hind:
+  - Rev2
+  - Rev8
+  - Rev10
+  - Rev14
+
+right_hind:
+  - Rev1
+  - Rev6
+  - Rev11
+  - Rev15

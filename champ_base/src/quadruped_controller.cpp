@@ -89,9 +89,9 @@ QuadrupedController::QuadrupedController(const ros::NodeHandle &node_handle,
                                         &QuadrupedController::publishVelocities_, 
                                         this);
 
-    joints_position_timer_ = pnh_.createTimer(ros::Duration(0.005),
-                                              &QuadrupedController::publishJoints_, 
-                                              this);
+   // joints_position_timer_ = pnh_.createTimer(ros::Duration(0.005),
+   //                                           &QuadrupedController::publishJoints_, 
+   //                                           this);
 
     foot_position_timer_ = pnh_.createTimer(ros::Duration(0.005),
                                             &QuadrupedController::publishFootPositions_, 
